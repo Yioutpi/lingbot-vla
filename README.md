@@ -3,7 +3,7 @@
 <p align="center">
   <a href="assets/RobbyVLA.pdf"><img src="https://img.shields.io/static/v1?label=Paper&message=PDF&color=red&logo=arxiv"></a>
   <a href="https://technology.robbyant.com/lingbot-vla"><img src="https://img.shields.io/badge/Project-Website-blue"></a>
-  <a href="https://huggingface.co/robbyant/lingbot-vla-4b-base"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=Base-Weights&color=orange"></a>
+  <a href="https://huggingface.co/robbyant/lingbot-vla-4b"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=Base-Weights&color=orange"></a>
   <a href="https://huggingface.co/robbyant/lingbot-vla-4b-depth"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=Depth-Weights&color=yellow"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-green"></a>
 </p>
@@ -60,13 +60,13 @@ We release LingBot-VLA pre-trained weights in two configurations: depth-free ver
 - **Pretrained Checkpoints for Post-Training with and without depth**
 
 | Model Name | Huggingface Repository | Description |
-| :--- | :--- | :---: |
-| **LingBot-VLA-4B-Base** | [🤗 robbyant/lingbot-vla-4b-base](https://huggingface.co/robbyant/lingbot-vla-4b-base) | Pretrained weight of base LingBot-VLA model |
-| **LingBot-VLA-4B-Depth** | [🤗 robbyant/lingbot-vla-4b-depth](https://huggingface.co/robbyant/lingbot-vla-4b-depth) | Pretrained weight of LingBot-VLA with depth distillation |
+| :--- | :---: | :---: |
+| LingBot-VLA-4B &nbsp; | [🤗 robbyant/lingbot-vla-4b &nbsp;](https://huggingface.co/robbyant/lingbot-vla-4b) | LingBot-VLA *w/o* Depth|
+| LingBot-VLA-4B-Depth | [🤗 robbyant/lingbot-vla-4b-depth &nbsp;](https://huggingface.co/robbyant/lingbot-vla-4b-depth) | LingBot-VLA *w/* Depth |
 
 
 
-To train and fintune LingBot with our codebase, weights from [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct), [MoGe-2-vitb-normal](https://huggingface.co/Ruicheng/moge-2-vitb-normal) and [LingBot-Depth](https://huggingface.co/robbyant/lingbot-depth-pretrain-vitl-14) also need to be prepared.
+To train LingBot with our codebase, weights from [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct), [MoGe-2-vitb-normal](https://huggingface.co/Ruicheng/moge-2-vitb-normal), and [LingBot-Depth](https://huggingface.co/robbyant/lingbot-depth-pretrain-vitl-14) also need to be prepared.
 
 ---
 
