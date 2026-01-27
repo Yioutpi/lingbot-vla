@@ -1,7 +1,7 @@
 <h1 align="center">LingBot-VLA: A Pragmatic VLA Foundation Model</h1>
 
 <p align="center">
-  <a href="assets/RobbyVLA.pdf"><img src="https://img.shields.io/static/v1?label=Paper&message=PDF&color=red&logo=arxiv"></a>
+  <a href="assets/LingBot-VLA.pdf"><img src="https://img.shields.io/static/v1?label=Paper&message=PDF&color=red&logo=arxiv"></a>
   <a href="https://technology.robbyant.com/lingbot-vla"><img src="https://img.shields.io/badge/Project-Website-blue"></a>
   <a href="https://huggingface.co/robbyant/lingbot-vla-4b"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=Base-Weights&color=orange"></a>
   <a href="https://huggingface.co/robbyant/lingbot-vla-4b-depth"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=Depth-Weights&color=yellow"></a>
