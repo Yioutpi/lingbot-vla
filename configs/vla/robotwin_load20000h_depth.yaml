@@ -50,7 +50,7 @@ train:
     use_text_tokens: False
     use_contrastive: True
     contrastive_loss_weight: 0.3
-    depth_loss_weight: 0.004s
+    depth_loss_weight: 0.004
     llm:
       dim_out: 2048
       image_token_size: 8
